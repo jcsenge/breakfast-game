@@ -47,47 +47,43 @@ Meow Shooter is a whimsical, browser-based first-person shooter (FPS) where you 
 
    - Create a Three.js scene, perspective camera, and renderer
    - Add PointerLockControls for WASD + mouse look
+   - Implement WASD movement and mouse look
 
 3. **Environment**
 
    - Add a detailed, 90's-styled ground plane using only the allowed palette
    - Add a sky dome and place tree obstacles around the map
 
-4. **Player Controls**
-
-   - Implement WASD movement and mouse look
-   - Lock/unlock pointer on click
-
-5. **Tomato Enemies**
+4. **Tomato Enemies**
 
    - Create tomato models using only the allowed colors
    - Spawn tomatoes at random positions on the map edge
    - Make tomatoes move and rotate toward the player
 
-6. **Shooting**
+5. **Shooting**
 
    - Left click fires a binary code projectile from the camera
    - Projectiles are glowing orange cubes with "1" or "0" texture
    - Projectiles always rotate to face the camera, move forward, and disappear after a short time
 
-7. **Collisions**
+6. **Collisions**
 
    - Detect projectile-tomato collisions (destroy both)
    - Detect tomato-player collisions (lose a life and remove tomato)
    - End the game if the player leaves the platform
 
-8. **UI Elements**
+7. **UI Elements**
 
    - Show lives as pixel hearts and current difficulty level
    - Add a crosshair and game over popup with restart button
    - Style all UI with the retro palette and pixel font
 
-9. **Progressive Difficulty**
+8. **Progressive Difficulty**
 
    - Increase tomato speed, spawn rate, and number per spawn over time
    - Update UI to reflect difficulty
 
-10. **Game Over and Restart**
+9. **Game Over and Restart**
     - End the game when lives reach 0 or player leaves the platform
     - Show a restart button to reload the game
     - Unlock the cursor for UI interaction
