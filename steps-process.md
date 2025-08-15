@@ -1,0 +1,4 @@
+- start each step with a 🤯 emoji
+- check if the step is done by analyzing the code
+- implement the required changes
+- run the app to let me test the changes
